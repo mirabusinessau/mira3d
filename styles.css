@@ -139,3 +139,20 @@ a{color:inherit}
 .newsletter{flex-direction:column}
 .newsletter button{min-height:44px}
 }
+
+
+/* Mira3D category collection cards */
+.categories-page{background:linear-gradient(180deg,#fff 0%,#fbf8ff 100%);padding-top:38px}
+.category-intro{text-align:center;max-width:720px;margin:0 auto 34px}
+.category-intro h1{font-size:clamp(40px,6vw,66px);line-height:1;margin:8px 0 14px;color:var(--navy)}
+.category-intro p:last-child{margin:0;color:var(--muted);font-size:17px}
+.mira-category-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.mira-category-card{position:relative;min-height:340px;border-radius:24px;padding:18px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 7px 22px rgba(18,57,69,.12);transition:transform .2s ease,box-shadow .2s ease;border:5px solid #fff}
+.mira-category-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(18,57,69,.18)}
+.mira-category-card h2{position:relative;z-index:2;text-align:center;margin:12px 0 4px;color:#102b38;font-size:clamp(27px,4vw,42px);line-height:1;font-weight:900;letter-spacing:-.03em}
+.category-photo-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;height:242px}
+.category-photo-grid img,.category-feature-image img{width:100%;height:100%;object-fit:cover;border-radius:16px}
+.category-feature-image{height:242px}
+.category-symbol{height:242px;display:grid;place-items:center;font-size:112px;font-weight:900;color:#102b38;text-shadow:0 4px 0 rgba(255,255,255,.65)}
+.pastel-pink{background:#ffd9ee}.pastel-purple{background:#e8ddff}.pastel-blue{background:#d8e8ff}.pastel-mint{background:#d9faec}.pastel-yellow{background:#fff2b9}.pastel-lilac{background:#eadcff}.pastel-red{background:#ffd7dc}.pastel-orange{background:#ffe2c2}
+@media(max-width:640px){.categories-page{padding-top:28px}.category-intro{margin-bottom:24px}.mira-category-grid{gap:12px}.mira-category-card{min-height:232px;border-radius:18px;padding:10px;border-width:4px}.category-photo-grid,.category-feature-image,.category-symbol{height:160px}.category-photo-grid{gap:5px}.category-photo-grid img,.category-feature-image img{border-radius:11px}.category-symbol{font-size:72px}.mira-category-card h2{font-size:clamp(19px,6vw,27px);margin:9px 0 4px}}
