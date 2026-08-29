@@ -156,3 +156,10 @@ a{color:inherit}
 .category-symbol{height:242px;display:grid;place-items:center;font-size:112px;font-weight:900;color:#102b38;text-shadow:0 4px 0 rgba(255,255,255,.65)}
 .pastel-pink{background:#ffd9ee}.pastel-purple{background:#e8ddff}.pastel-blue{background:#d8e8ff}.pastel-mint{background:#d9faec}.pastel-yellow{background:#fff2b9}.pastel-lilac{background:#eadcff}.pastel-red{background:#ffd7dc}.pastel-orange{background:#ffe2c2}
 @media(max-width:640px){.categories-page{padding-top:28px}.category-intro{margin-bottom:24px}.mira-category-grid{gap:12px}.mira-category-card{min-height:232px;border-radius:18px;padding:10px;border-width:4px}.category-photo-grid,.category-feature-image,.category-symbol{height:160px}.category-photo-grid{gap:5px}.category-photo-grid img,.category-feature-image img{border-radius:11px}.category-symbol{font-size:72px}.mira-category-card h2{font-size:clamp(19px,6vw,27px);margin:9px 0 4px}}
+
+
+/* WhatsApp contact button */
+.whatsapp-float{position:fixed;right:20px;bottom:20px;z-index:80;display:inline-flex;align-items:center;gap:9px;padding:13px 18px;border-radius:999px;background:#25D366;color:#fff;text-decoration:none;font-weight:800;box-shadow:0 8px 28px rgba(0,0,0,.22);transition:transform .2s,background .2s}
+.whatsapp-float:hover{background:#1fb457;transform:translateY(-2px)}
+.whatsapp-float>span:first-child{display:grid;place-items:center;width:27px;height:27px;border:2px solid #fff;border-radius:50%;font-size:15px}
+@media(max-width:540px){.whatsapp-float{right:14px;bottom:14px;padding:12px 15px;font-size:14px}}
